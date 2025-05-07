@@ -168,6 +168,12 @@ Run tests using pytest:
 pytest
 ```
 
+### Run Locally
+Start the backend server:
+```bash
+uvicorn app.main:app --reload --workers 1 --host localhost --port 8080
+```
+
 ## Deployment
 
 ### Heroku
